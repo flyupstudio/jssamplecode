@@ -1,0 +1,23 @@
+#app {
+  margin: 0;
+  padding: 0;
+  border: 4px solid #aaa;
+  border-radius: 2px;
+  font: normal 20px sans-serif;
+  list-style: none;
+}
+
+#app > * {
+  background: yellow;
+  padding: 4px 10px;
+  border-bottom: 1px solid #000;
+}
+
+#app > *:last-child {
+  border-bottom: none;
+}
+
+#app > *.text-through {
+  text-decoration: line-through;
+}
+
